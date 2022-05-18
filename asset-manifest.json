@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/movie_calendar/static/css/main.dc23bccc.css",
-    "main.js": "/movie_calendar/static/js/main.1d277ed6.js",
+    "main.css": "/movie_calendar/static/css/main.a57cb7e7.css",
+    "main.js": "/movie_calendar/static/js/main.e9f328cd.js",
     "static/media/TV.png": "/movie_calendar/static/media/TV.8eb6954dae85975a95a4.png",
     "index.html": "/movie_calendar/index.html",
-    "main.dc23bccc.css.map": "/movie_calendar/static/css/main.dc23bccc.css.map",
-    "main.1d277ed6.js.map": "/movie_calendar/static/js/main.1d277ed6.js.map"
+    "main.a57cb7e7.css.map": "/movie_calendar/static/css/main.a57cb7e7.css.map",
+    "main.e9f328cd.js.map": "/movie_calendar/static/js/main.e9f328cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc23bccc.css",
-    "static/js/main.1d277ed6.js"
+    "static/css/main.a57cb7e7.css",
+    "static/js/main.e9f328cd.js"
   ]
 }
