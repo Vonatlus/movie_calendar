@@ -10,6 +10,7 @@ The project is a mobile version and contains a calendar by clicking on a day in 
 
 * React router
 * React calendar
+* React spinners
 
 ## Local development
 
