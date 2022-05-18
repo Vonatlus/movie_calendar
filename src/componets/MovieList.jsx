@@ -3,17 +3,19 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { movieFromServer } from "../api";
 import './MovieList.css';
+import { BeatLoader } from "react-spinners";
 
 export const MovieList = () => {
   const [movies, setMovies] = useState([]);
+  const [loading, setLoading] = useState(true);
   const { date } = useParams();
   const navigate = useNavigate();
 
   useEffect(() => {
-    movieFromServer(date).then(setMovies)
+    movieFromServer(date).then(setMovies);
+    setLoading(false);
   }, [date])
 
-  console.log(date)
   return (
     <div className="movie_page">
       <div className="header">
@@ -27,6 +29,9 @@ export const MovieList = () => {
         <h1 className="header__title">Super film</h1>
       </div>
 
+      <div className="loading">
+        <BeatLoader color="gray" loading={loading} />
+      </div>
 
       <ul className="list">
         {movies.map(movie => (

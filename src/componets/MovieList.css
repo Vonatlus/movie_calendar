@@ -40,6 +40,14 @@
   background-color: lightgray;
 }
 
+.loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
 .list {
   list-style: none;
   margin: 0;
@@ -80,3 +88,4 @@
 .show__item {
   margin: 5px;
 }
+
