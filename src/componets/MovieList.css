@@ -1,0 +1,82 @@
+.movie_page {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+
+  background-color: whitesmoke;
+}
+
+.header__title {
+  display: inline-block;
+  margin: 0;
+
+  font-size: 20px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+.header__button_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 44px;
+  padding: 0 20px;
+
+  background-color: whitesmoke;
+  font-size: 20px;
+  color: crimson;
+  border: none;
+
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.header__button_back:hover{
+  background-color: lightgray;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list__item {
+  display: flex;
+  margin: 10px;
+}
+
+.list__img {
+  width: 100px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.title__item {
+  margin: 0;
+}
+
+.title__item-year{
+  color: lightgray;
+}
+
+.show {
+  display: flex;
+  width: max-content;
+  background-color: whitesmoke;
+  color: grey;
+}
+
+.show__item {
+  margin: 5px;
+}
